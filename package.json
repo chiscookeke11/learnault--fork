@@ -13,7 +13,7 @@
     "homepage": "https://github.com/learnault/learnault",
     "repository": {
         "type": "git",
-        "url": "https://github.com/learnault/learnault.git"
+        "url": "git+https://github.com/learnault/learnault.git"
     },
     "license": "MIT",
     "author": "Learnault Contributors",
@@ -36,17 +36,24 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss": "^4.1.9",
-        "@types/node": "^22",
         "@types/react": "^19.2.14",
         "@types/react-dom": "^19.2.3",
         "postcss": "^8.5",
         "tailwindcss": "^4.1.9",
-        "typescript": "^5",
         "vitest": "^4.0.18"
     },
     "packageManager": "pnpm@10.0.0",
     "engines": {
         "node": ">=20.0.0",
         "pnpm": ">=10.0.0"
+    },
+    "main": "tailwind.config.js",
+    "directories": {
+        "doc": "docs",
+        "lib": "lib",
+        "test": "tests"
+    },
+    "bugs": {
+        "url": "https://github.com/learnault/learnault/issues"
     }
 }
